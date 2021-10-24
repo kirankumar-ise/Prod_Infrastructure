@@ -1,5 +1,9 @@
 # Input Varibale for Virtual Machine
 
+variable "count_vm" {
+  type = number
+  default = 1
+}
 variable "vm_name" {
   type = string
   default = "scb000prod01"
