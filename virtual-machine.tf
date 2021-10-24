@@ -1,4 +1,4 @@
-resource "azurerm_linux_virtual_machine" "vm" {
+/*  resource "azurerm_linux_virtual_machine" "vm" {
     name = var.vm_name
     resource_group_name = azurerm_resource_group.rg01.name
     location = azurerm_resource_group.rg01.location
@@ -7,11 +7,10 @@ resource "azurerm_linux_virtual_machine" "vm" {
     admin_username = var.admin_username
     admin_password = var.admin_password
 
-    /*admin_ssh_key {
-    username   = "adminuser"
-    public_key = file("~/.ssh/id_rsa.pub")
-  }
-  */
+   # admin_ssh_key {
+   # username   = "adminuser"
+   # public_key = file("~/.ssh/id_rsa.pub")
+   #}
 
   os_disk {
     caching              = "ReadWrite"
@@ -37,3 +36,4 @@ resource "azurerm_network_interface" "nic" {
 
   }
 }
+*/
